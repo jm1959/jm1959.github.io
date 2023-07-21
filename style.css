@@ -36,3 +36,58 @@
     .sideNav {padding-top: 15px}
     .sideNav a {font-size: 18px;}
 }
+
+.container {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: tan;
+}
+
+.home {
+    
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    margin-left: 10px;
+}
+
+.portfolio {
+    margin-left: 10px;
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.topic {
+    margin-bottom: 5px;
+}
+
+.line {
+    width:100px; 
+    height: 2px;
+    margin-left: 0;
+    border-width: 0;
+    color:#111;
+    background-color: #111;
+}

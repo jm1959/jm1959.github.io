@@ -8,13 +8,47 @@
 </head>
 <body>
     <script src="../script.js"></script>
-    <div id="sideNav" class="sideNav"> 
-        <a href = "script.js" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href = "#">About</a>
-    </div> 
-    <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; open</span>
-    <h2>Game & Software Developer</h2>
-    <p>I am a fourth year college student</p>  
+    <nav>
+        <div id="sideNav" class="sideNav"> 
+            <a href = "index.html" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href = "#about">About</a>
+            <a href = "#portfolio">Portfolio</a>
+            <a href = "#contact">Contact</a>    
+        </div> 
+        
+    </nav>
+
+    <div class = "container">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+        <header class="home" id="home">
+            <h1 class="name">Joseph McGillen</h1>
+            <p class="title">Software Developer</p>
+        </header>
+
+        <div class="about" id="about">
+            <h2 class="topic">About</h2>
+            <hr class="line">
+            <p>Hey there! I'm thrilled to have you stop by and learn a bit about me. 
+            I'm a current college student pursuing my passion for technology through a major in Computer Science 
+            with a concentration in Software Development.</p>
+            <h3>Skills</h3>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <h2 class="topic">Portfolio</h2>
+            <hr class="line">
+        </div>
+
+        <div class="contact" id="contact">
+            <h2 class="topic">Contact</h2>
+            <hr class="line">
+        </div>
+    </div>
+   
+
+
+    
+      
 
 
 </body>

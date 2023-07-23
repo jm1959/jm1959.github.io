@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="../style.css">
     
 </head>
-<body>
+<body style="background-color: black;">
     <script src="../script.js"></script>
     <nav>
         <div id="sideNav" class="sideNav"> 
             <a href = "index.html" class="closebtn" onclick="closeNav()">&times;</a>
             <a href = "#about">About</a>
-            <a href = "#portfolio">Portfolio</a>
+            <a href = "#projects">Portfolio</a>
             <a href = "#contact">Contact</a>    
         </div> 
         
     </nav>
 
     <div class = "container">
-        <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+        <span style="font-size:30px; cursor:pointer; color: white;" onclick="openNav()">&#9776;</span>
         <header class="home" id="home">
             <h1 class="name">Joseph McGillen</h1>
             <p class="title">Software Developer</p>
@@ -28,15 +28,29 @@
         <div class="about" id="about">
             <h2 class="topic">About</h2>
             <hr class="line">
-            <p>Hey there! I'm thrilled to have you stop by and learn a bit about me. 
-            I'm a current college student pursuing my passion for technology through a major in Computer Science 
-            with a concentration in Software Development.</p>
-            <h3>Skills</h3>
+            <p style="display:inline-flex">
+                Hey there! I'm thrilled to have you stop by and learn a bit about me. 
+                I'm a current college student pursuing my passion for technology through a major in Computer Science 
+                with a concentration in Software Development.
+            <img src="../headshot.png" alt="headshot" style="width: 300px; height: 300px; padding: 10px;">
+            </p>
+             
+            <h3 style="margin-bottom: 5px;">Skills</h3>
+            <ul style="margin-top: 0;">
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML5/CSS3/Javascript</li>
+                <li>PHP</li>
+                <li>SQL</li>
+            </ul>
         </div>
 
-        <div class="portfolio" id="portfolio">
-            <h2 class="topic">Portfolio</h2>
+        <div class="projects" id="projects">
+            <h2 class="topic">Projects</h2>
             <hr class="line">
+            <h3>Tron</h3>
+            <h3>Memory Game</h3>
+            <h3>Lifeguard shift planner</h3>
         </div>
 
         <div class="contact" id="contact">

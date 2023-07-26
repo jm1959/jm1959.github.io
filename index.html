@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>JM Portfolio</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body style="background-color: black;">
@@ -17,9 +18,9 @@
         </div> 
         
     </nav>
-
+    <span style="font-size:30px; cursor:pointer; color: white; padding: 10px;" onclick="openNav()">&#9776;</span>
     <div class = "container">
-        <span style="font-size:30px; cursor:pointer; color: white;" onclick="openNav()">&#9776;</span>
+       
         <header class="home" id="home">
             <h1 class="name">Joseph McGillen</h1>
             <p class="title">Software Developer</p>
@@ -32,7 +33,7 @@
                 Hey there! I'm thrilled to have you stop by and learn a bit about me. 
                 I'm a current college student pursuing my passion for technology through a major in Computer Science 
                 with a concentration in Software Development.
-            <img src="../headshot.png" alt="headshot" style="width: 300px; height: 300px; padding: 10px;">
+            <img src="../photos/headshot.png" alt="headshot" style="width: 300px; height: 300px; padding-left: 10px;">
             </p>
              
             <h3 style="margin-bottom: 5px;">Skills</h3>
@@ -49,13 +50,62 @@
             <h2 class="topic">Projects</h2>
             <hr class="line">
             <h3>Tron</h3>
+            <ul>
+                <li>Developed retro video game tron using python</li>
+                <li>Implemented the turtle function to create the play area and characters</li>
+                <li>Used arrays to track players past positions to know when another player crossed them</li>
+            </ul>
+            <div class="row">
+                <div class="column">
+                    <img src="../photos/Screenshot (2).png" style="width: 100%;">
+                </div>
+                <div class="column">
+                    <img src="../photos/Screenshot (3).png" style="width: 100%;">
+                </div>
+                <div class="column">
+                    <img src="../photos/Screenshot (4).png" style="width: 100%;">
+                </div>
+            </div>
             <h3>Memory Game</h3>
+            <ul>
+                <li>Developed a memory game in Java where users need to match the words</li>
+                <li>Built the cards by implementing buttons using Jframe</li>
+                <li>Created checks to make sure the cards match and if not cards were flipped back over </li>
+            </ul>
+            <div class="row">
+                <div class="column">
+                    <img src="../photos/Screenshot (5).png" style="width: 100%;">
+                </div>
+                <div class="column">
+                    <img src="../photos/tronWin.jpg" style="width: 100%;">
+                </div>
+            </div>
             <h3>Lifeguard shift planner</h3>
+            <ul>
+                <li>Work in a group of 5 to created a shift scheduling </li>
+                <li>Was tasked with creating the database as well as the edit profile page</li>
+                <li>The database was created using SQL and the <br>
+                    edit profile page was built using HTML5/CSS3 and PHP to communicate with the database
+                </li>
+            </ul>
+             <div class="row">
+                <div class="column">
+                    <img src="../photos/Screenshot (2).png" style="width: 100%;">
+                </div>
+                <div class="column">
+                    <img src="../photos/Screenshot (3).png" style="width: 100%;">
+                </div>
+                <div class="column">
+                    <img src="../photos/Screenshot (4).png" style="width: 100%;">
+                </div>
+            </div>
         </div>
 
         <div class="contact" id="contact">
             <h2 class="topic">Contact</h2>
             <hr class="line">
+            <p><i class="fa fa-phone fa-fw" style="font-size: 36px; margin-right: 16px;"></i>Phone: 267-374-4492</p>
+            <p><i class="fa fa-envelope fa-fw"style="font-size: 36px; margin-right: 16px;"></i>Email: mcgillenjoseph@gmail.com</p>
         </div>
     </div>
    

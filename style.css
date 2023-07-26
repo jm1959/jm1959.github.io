@@ -38,14 +38,14 @@
 }
 
 .container {
-    padding: 12px 24px!important;
+    padding: 12px 50px!important;
 
     background-color: black;
 }
 
 .home {
     padding-top: 255px;
-    padding-bottom: 258px;
+    padding-bottom: 265px;
 }
 
 .name {
@@ -64,6 +64,9 @@
 
 .about {
     color: white;
+    text-align: justify;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .projects {
@@ -85,4 +88,26 @@
     border-width: 0;
     color: white;
     background-color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
 }

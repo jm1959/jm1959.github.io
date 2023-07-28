@@ -38,7 +38,7 @@
 }
 
 .container {
-    padding: 12px 50px!important;
+    padding: 12px 100px!important;
 
     background-color: black;
 }
@@ -71,6 +71,7 @@
 
 .projects {
     color: white;
+    padding-bottom: 64px;
 }
 
 .contact {

@@ -1,16 +1,28 @@
 //import logo from './assets/images/logo.svg';
-import headshot from './assets/images/headshot.png';
-import './App.css';
+import { Outlet, Link } from "react-router-dom";
+//import headshot from './assets/images/headshot.png';
+import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={headshot} className="App-logo" alt="logo" />
-        <p>
-          WELCOME!!! GIVE ME JOB
-        </p>
-      </header>
+    <div>
+      <div id="sidebar">
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">JM</Link>
+            </li>
+            <li>
+              <Link to="/About">About</Link>
+            </li>
+            <li>
+              <Link to="/Projects">Projects</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Outlet />
+      </div>
     </div>
   );
 }

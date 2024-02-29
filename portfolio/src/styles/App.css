@@ -1,0 +1,57 @@
+#sidebar nav {
+  flex: 1;
+  background-color: #4ABDAC;
+  flex-direction: row;
+  overflow: auto;
+  /* padding-top: 1rem; */
+}
+
+#sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+
+}
+
+#sidebar nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The color when cursor hovers over */
+#sidebar nav a:hover {
+  background: #F7B733;
+}
+
+#sidebar nav a.active {
+  background: hsl(224, 98%, 58%);
+  color: white;
+}
+
+#sidebar nav a.pending {
+  color: hsl(224, 98%, 58%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#appHeader {
+  background-color: #4ABDAC;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,13 +1,5 @@
 import React from 'react';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './styles/App.css';
-// import Home from './Home';
-// import About from './About';
-// import Projects from './Projects';
-// import Tron from './Tron';
-// import MemoryGame from './MemoryGame';
-// import DormSwapandShop from './DormSwapandShop';
-// import Otea from './Otea';
 
 function App() {
   return (
@@ -32,9 +24,6 @@ function App() {
           </ul>
         </nav>
       </div>
-      {/* <Home />
-      <About />
-      <Projects /> */}
     </div>
   );
 }

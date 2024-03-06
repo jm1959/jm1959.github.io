@@ -4,7 +4,11 @@ export default function Home() {
         <div id="Home">
             <div id="appHeader">
                 <h1>Welcome, </h1>
-                <p>My name is Joseph McGillen and I am a software engineering student at Messiah University</p>
+                <p style={{ width: '80%' }}>
+                    Joseph is a passionate computer science pursuing a future in software development.
+                    Leveraging skills in Flutter, Dart, React Native, Java and Python to contribute effectively
+                    to innovative projects and gain hands-on experience in software development.
+                </p>
             </div>
         </div>
     );

@@ -13,23 +13,23 @@ export default function Projects() {
             <h1>Projects</h1>
             <p>Here are some of the projects I have worked on:</p>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <div style={{ display: 'flex', flexDirection: 'row', marginBottom: 40 }}>
-                    <div style={{ marginRight: 100 }}>
+                <div id="projectCardRow">
+                    <div id="projectCardMargins">
                         <ReactCardFlip isFlipped={project1flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject1Flip(!project1flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/tron.png')} alt="Project" style={{ width: '100%', height: '370px' }} />
+                                    <img src={require('./assets/images/tron.png')} alt="Project" style={{ width: '100%', height: '82%' }} />
                                     <p>Tron</p>
                                 </div>
                             </button>
 
                             <button id='projectButton' onClick={() => setProject1Flip(!project1flip)}>
                                 <div id='projectCard'>
-                                    <ul>
+                                    <ul style={{ fontSize: 20 }}>
                                         <li>Developed retro video videogame Tron</li>
                                         <li>Developed using Python and utilizing Turtle and functions and arrays</li>
                                     </ul>
-                                    <Buttons />
+                                    <Buttons path="Tron" />
                                 </div>
                             </button>
                         </ReactCardFlip >
@@ -38,37 +38,37 @@ export default function Projects() {
                         <ReactCardFlip isFlipped={project2flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject2Flip(!project2flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/memoryGame.png')} alt="Project" style={{ width: '100%', height: '370px' }} />
+                                    <img src={require('./assets/images/memoryGame.png')} alt="Project" style={{ width: '100%', height: '82%' }} />
                                     <p>Memory Game</p>
                                 </div>
                             </button>
 
                             <button id='projectButton' onClick={() => setProject2Flip(!project2flip)}>
                                 <div id='projectCard'>
-                                    <ul>
+                                    <ul style={{ fontSize: 20 }}>
                                         <li>Developed Java-based memory game</li>
                                         <li>Utilized JFrame and buttons functions</li>
                                         <li>Created checks to see if both buttons clicked were equal to one another</li>
                                     </ul>
-                                    <Buttons />
+                                    <Buttons path="MemoryGame" />
                                 </div>
                             </button>
                         </ReactCardFlip >
                     </div>
                 </div>
-                <div style={{ display: 'flex', flexDirection: 'row', marginBottom: 40 }}>
-                    <div style={{ marginRight: 100 }}>
+                <div id="projectCardRow">
+                    <div id="projectCardMargins">
                         <ReactCardFlip isFlipped={project3flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject3Flip(!project3flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/logoV2.png')} alt="Project" style={{ width: '100%', height: '370px' }} />
+                                    <img src={require('./assets/images/logoV2.png')} alt="Project" style={{ width: '100%', height: '82%' }} />
                                     <p>Dorm Swap & Shop</p>
                                 </div>
                             </button>
 
                             <button id='projectButton' onClick={() => setProject3Flip(!project3flip)}>
                                 <div id='projectCard'>
-                                    <ul>
+                                    <ul style={{ fontSize: 20 }}>
                                         <li>Mobile application for college students</li>
                                         <li>
                                             Students can create and post
@@ -76,12 +76,12 @@ export default function Projects() {
                                         </li>
                                         <li>Utilized React and React Native to develop the mobile application</li>
                                     </ul>
-                                    <Buttons />
+                                    <Buttons path="DormSwapandShop" />
                                 </div>
                             </button>
                         </ReactCardFlip >
                     </div>
-                    <div style={{}}>
+                    <div>
                         <ReactCardFlip isFlipped={project4flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject4Flip(!project4flip)}>
                                 <div id='projectCard'>
@@ -92,11 +92,11 @@ export default function Projects() {
 
                             <button id='projectButton' onClick={() => setProject4Flip(!project4flip)}>
                                 <div id='projectCard'>
-                                    <ul>
+                                    <ul style={{ fontSize: 20 }}>
                                         <li>Collaborated with cross-function teams to develop a mobile app </li>
                                         <li>Utilized Flutter and Dart</li>
                                     </ul>
-                                    <Buttons />
+                                    <Buttons path="Otea" />
                                 </div>
                             </button>
                         </ReactCardFlip >

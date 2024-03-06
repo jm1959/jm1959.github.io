@@ -1,5 +1,6 @@
 #Projects {
     background-color: #f4decb;
+    overflow: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,14 +27,45 @@
     border: none;
     padding: 0;
     margin: 0;
-    width: 500px;
-    height: 450px;
+    width: 60vh;
+    height: 60vh;
     color: inherit;
     font: inherit;
     cursor: pointer;
 }
 
+#projectButton:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
 #cardImage {
-    width: "90%";
+    width: 50vh;
     height: fit-content;
+}
+
+#projectCardRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+#projectCardMargins {
+    margin-right: 40px;
+}
+
+@media (max-width: 600px) {
+    #projectCardRow {
+        flex-direction: column;
+    }
+
+    #projectCardMargins {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    #projectButton {
+        width: 50vh;
+        height: 50vh;
+    }
 }

@@ -13,28 +13,29 @@ import Otea from './Otea';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
+import Footer from './Footer';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: [<App />, <Home />, <About />, <Projects />],
+    element: [<App />, <Home />, <About />, <Projects />, <Footer />],
   },
   {
     path: "/Tron",
-    element: [<App />, <Tron />],
+    element: [<App />, <Tron />, <Footer />],
   },
   {
     path: "/MemoryGame",
-    element: [<App />, <MemoryGame />],
+    element: [<App />, <MemoryGame />, <Footer />],
   },
   {
     path: "/DormSwapandShop",
-    element: [<App />, <DormSwapandShop />],
+    element: [<App />, <DormSwapandShop />, <Footer />],
   },
   {
     path: "/Otea",
-    element: [<App />, <Otea />],
+    element: [<App />, <Otea />, <Footer />],
   },
 ]);
 

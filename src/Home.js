@@ -1,3 +1,5 @@
+//Joseph McGillen: Portfolio
+//Credit for fade effect: https://www.youtube.com/watch?v=huVJW23JHKQ
 import { useEffect } from "react";
 import './styles/Home.css';
 export default function Home() {

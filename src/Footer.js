@@ -1,3 +1,4 @@
+//Joseph McGillen: Portfolio
 import { IoLogoLinkedin } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";

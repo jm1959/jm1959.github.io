@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df3bfd5a.css",
+    "main.js": "/static/js/main.903b89b4.js",
+    "static/media/otea.png": "/static/media/otea.5e82c773e7d3a9fc3d3a.png",
+    "static/media/headshot.png": "/static/media/headshot.2792a4789b2ec7eb55eb.png",
+    "static/media/memoryGame.png": "/static/media/memoryGame.bcef499b92b7461c182c.png",
+    "static/media/logoV2.png": "/static/media/logoV2.1abf1af720f823c51bc6.png",
+    "static/media/tron.png": "/static/media/tron.581ec6f1f642a4d54ad0.png",
+    "index.html": "/index.html",
+    "main.df3bfd5a.css.map": "/static/css/main.df3bfd5a.css.map",
+    "main.903b89b4.js.map": "/static/js/main.903b89b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df3bfd5a.css",
+    "static/js/main.903b89b4.js"
+  ]
+}

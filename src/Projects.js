@@ -1,5 +1,5 @@
 //Joseph McGillen: Portfolio
-//Credit for fade effect: https://www.youtube.com/watch?v=huVJW23JHKQ
+//Credit for fade effect in the useEffect: https://www.youtube.com/watch?v=huVJW23JHKQ
 import { useState, useEffect } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import './styles/Projects.css';

@@ -1,7 +1,7 @@
 #sidebar nav {
   display: flex;
   justify-content: space-between;
-  background-color: #946183;
+  background-color: #cee4e4;
   flex-direction: row;
   overflow: auto;
   /* padding-top: 1rem; */
@@ -18,7 +18,7 @@
 
 #sidebar nav a {
   display: block;
-  color: #f4decb;
+  color: #131200;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -26,11 +26,11 @@
 
 /* The color when cursor hovers over */
 #sidebar nav a:hover {
-  background: #49274a;
+  text-decoration: underline;
 }
 
 #appHeader {
-  background-color: #f4decb;
+  background-color: #39375B;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

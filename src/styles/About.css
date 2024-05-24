@@ -1,12 +1,12 @@
 #aboutPage {
-    background-color: #f4decb;
+    background-color: #cee4e4;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: #565656;
+    color: #131200;
     margin-top: 0;
     margin-bottom: 0;
 }

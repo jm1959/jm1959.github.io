@@ -5,7 +5,7 @@ export default function Tron() {
         <div id="appHeader">
             <h1>Tron</h1>
             <div id="projectDescription">
-                <div style={{ width: '60%' }}>
+                <div id="projectText">
                     <h3>About:</h3>
                     <p>
                         Tron is a game that I made using Python and Turtle Graphics. It is a two player game

@@ -27,7 +27,7 @@ export default function About() {
             <div id="aboutPage">
                 <div id="fadeIn">
                     <div id="aboutMe">
-                        <div style={{ width: '60%' }}>
+                        <div id="aboutText">
                             <h3>Get to know me, </h3>
                             <p>
                                 I'm thrilled to have you stop by and learn a bit about me.

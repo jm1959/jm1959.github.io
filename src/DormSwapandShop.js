@@ -5,7 +5,7 @@ export default function DormSwapandShop() {
         <div id="appHeader">
             <h1>Dorm Swap and Shop</h1>
             <div id="projectDescription">
-                <div style={{ width: '60%' }}>
+                <div id="projectText">
                     <h3>About:</h3>
                     <p>
                         Created as a senior project. Dorm Swap and Shop is geared toward college students who are

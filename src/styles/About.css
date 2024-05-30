@@ -28,6 +28,10 @@
     width: 90%;
 }
 
+#aboutText {
+    width: 60%;
+}
+
 #imageContainer {
     display: flex;
     align-items: center;
@@ -43,6 +47,10 @@
     #aboutMe {
         flex-direction: column;
         align-items: center;
+    }
+
+    #aboutText {
+        width: 90%;
     }
 
     #imageContainer {

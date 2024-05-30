@@ -18,6 +18,10 @@
     width: 90%;
 }
 
+#projectText {
+    width: 60%;
+}
+
 #projectImage {
     display: flex;
     align-items: center;
@@ -38,5 +42,9 @@
     #projectImage {
         width: 70%;
         height: auto;
+    }
+
+    #projectText {
+        width: 90%;
     }
 }

@@ -5,7 +5,7 @@ export default function Otea() {
         <div id="appHeader">
             <h1>Otea</h1>
             <div id="projectDescription">
-                <div style={{ width: '60%' }}>
+                <div id="projectText">
                     <h3>About: </h3>
                     <p>When traveling through a major city it can be hard to find a public restroom in a timely manor</p>
                     <p>

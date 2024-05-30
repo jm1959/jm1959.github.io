@@ -5,7 +5,7 @@ export default function MemoryGame() {
         <div id="appHeader">
             <h1>Memory Game</h1>
             <div id="projectDescription">
-                <div style={{ width: '60%' }}>
+                <div id="projectText">
                     <h3>About:</h3>
                     <p>
                         Created as a final project for computer programming 2, Memory Game was created using Java and JFrame.

@@ -9,7 +9,7 @@ export default function About() {
         const options = {
             root: null,
             rootMargin: '0px 0px 100px 0px',  /* Adjust margins as needed */
-            threshold: 0.5  /* Fade in when 50% of the element is visible */
+            threshold: 0.25  /* Fade in when 50% of the element is visible */
         };
 
         const observer = new IntersectionObserver((entries) => {
@@ -34,14 +34,14 @@ export default function About() {
                                 I am a recent graduate from Messiah University with a Bachelors of Science in Computer & Information Science
                             </p>
                             <p>
-                                My passion for technology and software has been a driving force in my life for as long as I can remember.
-                                My curiosity and drive to learn have led me to explore a variety of programming languages and technologies.
-                                I've also had the opportunity to work on a variety of projects, from mobile app
+                                My passion for technology has been a driving force in my life for as long as I can remember.
+                                My curiosity and drive to learn led me to explore a variety of programming languages and technologies.
+                                I've also had the opportunity to work on a variety of projects, ranging from mobile app
                                 development to web development, and I'm always eager to learn new skills and take on new challenges.
                             </p>
                             <p>
                                 However, my college experience hasn't solely revolved around the digital realm. During my freshman and sophomore years,
-                                I had the incredible opportunity to be a part of the college swim team. Being in the water has always been a
+                                I had the incredible opportunity to be a part of my college's swim team. Being in the water has always been a
                                 significant aspect of my life, and combining my love for swimming with my academic pursuits has been nothing short
                                 of invigorating. The dedication, discipline, and teamwork I honed through competitive swimming have proven invaluable
                                 in both my personal and academic life.

@@ -27,12 +27,17 @@ export default function About() {
             <div id="aboutPage">
                 <div id="fadeIn">
                     <div id="aboutMe">
-                        <div style={{ paddingRight: '10%' }}>
+                        <div style={{ width: '60%' }}>
                             <h3>Get to know me, </h3>
                             <p>
                                 I'm thrilled to have you stop by and learn a bit about me.
-                                As a computer science major with a concentration in software development, I have honed my skills
-                                at Messiah University.
+                                I am a recent graduate from Messiah University with a Bachelors of Science in Computer & Information Science
+                            </p>
+                            <p>
+                                My passion for technology and software has been a driving force in my life for as long as I can remember.
+                                My curiosity and drive to learn have led me to explore a variety of programming languages and technologies.
+                                I've also had the opportunity to work on a variety of projects, from mobile app
+                                development to web development, and I'm always eager to learn new skills and take on new challenges.
                             </p>
                             <p>
                                 However, my college experience hasn't solely revolved around the digital realm. During my freshman and sophomore years,
@@ -43,11 +48,11 @@ export default function About() {
                             </p>
 
                         </div>
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            <img src={require('./assets/images/headshot.png')} alt="headShot" style={{ flex: 1, height: '50vh' }} />
+                        <div id='imageContainer'>
+                            <img src={require('./assets/images/McGillen_Joseph.jpg')} alt="headShot" style={{ width: '100%', borderRadius: 10 }} />
                         </div>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                    <div id="aboutMe">
                         <ul style={{ fontSize: 20, width: '50%' }}>
                             <p style={{ marginBottom: 5, fontWeight: 'bold' }}>Courses: </p>
                             <li>Data Structures and Algorithms</li>
@@ -56,14 +61,16 @@ export default function About() {
                             <li>Web Development Client/Server side</li>
                             <li>Systems Analysis and Designs</li>
                             <li>Discrete Math</li>
+                            <li>Intro to Mobile App Design</li>
                             <li>App Dev 1 & 2</li>
+                            <li>Business Systems Applications</li>
                         </ul>
 
                         <ul style={{ fontSize: 20, width: '50%' }}>
                             <p style={{ marginBottom: 5, fontWeight: 'bold' }}>Relevant Skills: </p>
                             <li>Programming Languages: Java, Python, HTML/CSS, JavaScript, Dart, PHP</li>
-                            <li>Frameworks: Flutter, React Native</li>
-                            <li>Databases: SQL</li>
+                            <li>Frameworks: Flutter, React/React Native</li>
+                            <li>Databases: SQL, Firebase</li>
                             <li>Devops/Version Control: Git, CircleCI, Docker</li>
                             <li>Others: Linux, Figma, Expo</li>
                         </ul>

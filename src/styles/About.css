@@ -24,8 +24,15 @@
 #aboutMe {
     display: flex;
     flex-direction: row;
-    padding-left: 5%;
-    padding-right: 5%;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#imageContainer {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: auto;
 }
 
 @media (max-width: 600px) {
@@ -35,5 +42,11 @@
 
     #aboutMe {
         flex-direction: column;
+        align-items: center;
+    }
+
+    #imageContainer {
+        width: 70%;
+        height: auto;
     }
 }

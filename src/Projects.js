@@ -40,7 +40,7 @@ export default function Projects() {
                         <ReactCardFlip isFlipped={project1flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject1Flip(!project1flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/tron.png')} alt="Project" style={{ width: '100%', height: '82%' }} />
+                                    <img src={require('./assets/images/tron.png')} alt="Project" style={{ width: '100%', height: '82%', borderRadius: 10 }} />
                                     <p>Tron</p>
                                 </div>
                             </button>
@@ -50,6 +50,7 @@ export default function Projects() {
                                     <ul style={{ fontSize: 20, textAlign: 'left' }}>
                                         <li style={{ marginBottom: '4%' }}>Developed retro video videogame Tron</li>
                                         <li style={{ marginBottom: '4%' }}>Developed using Python and utilizing Turtle and functions and arrays</li>
+                                        <li style={{ marginBottom: '4%' }}>Implemented core game mechanics, user input handling, and collision detection</li>
                                     </ul>
                                     <Buttons path="Tron" />
                                 </div>
@@ -60,7 +61,7 @@ export default function Projects() {
                         <ReactCardFlip isFlipped={project2flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject2Flip(!project2flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/memoryGame.png')} alt="Project" style={{ width: '100%', height: '82%' }} />
+                                    <img src={require('./assets/images/memoryGame.png')} alt="Project" style={{ width: '100%', height: '82%', borderRadius: 10 }} />
                                     <p>Memory Game</p>
                                 </div>
                             </button>
@@ -68,8 +69,7 @@ export default function Projects() {
                             <button id='projectButton' onClick={() => setProject2Flip(!project2flip)}>
                                 <div id='projectCard'>
                                     <ul style={{ fontSize: 20, textAlign: 'left' }}>
-                                        <li style={{ marginBottom: '4%' }}>Developed Java-based memory game</li>
-                                        <li style={{ marginBottom: '4%' }}>Utilized JFrame and buttons functions</li>
+                                        <li style={{ marginBottom: '4%' }}>Developed Java-based memory game featuring a graphical user interface with JFrame</li>
                                         <li style={{ marginBottom: '4%' }}>Created checks to see if both buttons clicked were equal to one another</li>
                                     </ul>
                                     <Buttons path="MemoryGame" />
@@ -96,7 +96,9 @@ export default function Projects() {
                                             Students can create and post
                                             listings to sell textbooks, furniture and decorations
                                         </li>
-                                        <li style={{ marginBottom: '4%' }}>Utilized React and React Native to develop the mobile application</li>
+                                        <li style={{ marginBottom: '4%' }}>Worked alongside 3 other team members as a front-end developer
+                                            utilized React and React Native to develop the mobile application</li>
+                                        <li style={{ marginBottom: '4%' }}>Integrated multiple API's to retrieve and update data in real time</li>
                                     </ul>
                                     <Buttons path="DormSwapandShop" />
                                 </div>
@@ -107,7 +109,7 @@ export default function Projects() {
                         <ReactCardFlip isFlipped={project4flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject4Flip(!project4flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/otea.png')} alt="Project" style={{ width: '100%', height: '82%' }} />
+                                    <img src={require('./assets/images/otea.png')} alt="Project" style={{ width: '100%', height: '82%', borderRadius: 10 }} />
                                     <p>Otea</p>
                                 </div>
                             </button>
@@ -117,6 +119,8 @@ export default function Projects() {
                                     <ul style={{ fontSize: 20, textAlign: 'left' }}>
                                         <li style={{ marginBottom: '4%' }}>Collaborated with cross-function teams to develop a mobile app </li>
                                         <li style={{ marginBottom: '4%' }}>Utilized Flutter and Dart</li>
+                                        <li style={{ marginBottom: '4%' }}>Developed and implemented multiple user interfaces</li>
+                                        <li style={{ marginBottom: '4%' }}>Compared libraries and modified them to fit a specific criteria</li>
                                     </ul>
                                     <Buttons path="Otea" />
                                 </div>

@@ -40,7 +40,7 @@ export default function Projects() {
                         <ReactCardFlip isFlipped={project1flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject1Flip(!project1flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/tron.png')} alt="Project" style={{ width: '100%', height: '82%', borderRadius: 10 }} />
+                                    <img src={require('./assets/images/tron.png')} alt="Project" style={{ width: '100%', height: '100%', borderRadius: 10 }} />
                                     <p>Tron</p>
                                 </div>
                             </button>
@@ -61,7 +61,7 @@ export default function Projects() {
                         <ReactCardFlip isFlipped={project2flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject2Flip(!project2flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/memoryGame.png')} alt="Project" style={{ width: '100%', height: '82%', borderRadius: 10 }} />
+                                    <img src={require('./assets/images/memoryGame.png')} alt="Project" style={{ width: '100%', height: '100%', borderRadius: 10 }} />
                                     <p>Memory Game</p>
                                 </div>
                             </button>
@@ -83,7 +83,7 @@ export default function Projects() {
                         <ReactCardFlip isFlipped={project3flip} flipDirection='horizontal'>
                             <button id='projectButton' onClick={() => setProject3Flip(!project3flip)}>
                                 <div id='projectCard'>
-                                    <img src={require('./assets/images/logoV2.png')} alt="Project" style={{ width: '100%', height: '82%' }} />
+                                    <img src={require('./assets/images/logoV2.png')} alt="Project" style={{ width: '100%', height: '82%', }} />
                                     <p>Dorm Swap & Shop</p>
                                 </div>
                             </button>
